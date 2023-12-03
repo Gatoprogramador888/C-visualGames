@@ -1,11 +1,14 @@
-#include<iostream>
+/*#include<iostream>
 #include<windows.h>
 #include<conio.h>
 #include<math.h>
 #include<string>
 #include<stdlib.h>
 #include<stdio.h>
-#include<list>
+#include<list>*/
+#pragma once
+#include<windows.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 class interfaz1{

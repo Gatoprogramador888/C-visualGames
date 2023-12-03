@@ -1,3 +1,4 @@
+#pragma once
 #include<iostream>
 #include<windows.h>
 #include<conio.h>
@@ -10,7 +11,7 @@
 #define up 72
 #define down 80
 #define right 77
-#define left 75
+//#define left 75
 #define espace 32
 #define enter 13
 #define esc 27
