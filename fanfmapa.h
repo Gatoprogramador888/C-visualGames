@@ -47,13 +47,13 @@ void Dibujarmapa(){
         cout<<"\n";
     }
 }
-/*
-void Posiciones(){
-    if(chica.GetX()==3&&chica.GetY()==8&&count != chica.GetCount()){
+
+void Perder(){
+    if(chica.GetX()==3&&chica.GetY()==8&&count != chica.GetCount()&&camera.Puerta()!=true){
         GameOver();
         gameover = true;
     }
-}*/
+}
 
 public:
 
@@ -73,6 +73,7 @@ Mapita[2][28]=2;
 
 void loop(){
 Dibujar(camera.GetOn());
+Perder();
 }
 
 };Mapa mapa;
